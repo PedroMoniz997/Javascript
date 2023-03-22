@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Data e Hora em JavaScript</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Relogio Moniz</h1>
+        <div id="Timer" class="Timer">
+            <div id="Relogio">00:00:00</div>
+            <div id="define-alarme" class="define-alarme">
+                <p id="hour-alarme">Hora do alarme: </p>
+                <p>Tempo do alarme (Segundos)</p>
+                <input type="number" name="time-alarme" id="time-alarme" value="0" min="0">
+            </div>
+            <div id="comandos" class="comandos">
+                <button id="btn-started">Ativar</button>
+                <button id="btn-stop">Parar</button>
+            </div>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>

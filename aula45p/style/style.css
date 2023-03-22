@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.controls {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100vw;
+    border-color: #eee;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #888;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #888;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type="number"], #display-num-objects {
+    border: 1px solid ;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.palco {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+    background-color: #eee;
+    border: 2px solid ;
+    border-radius: 5px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.bal {
+    position: absolute;
+    border-radius: 100px;
+}

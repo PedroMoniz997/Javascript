@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+#math {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #eee;
+    border-radius: 5px;
+    border: 3px solid #888;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: monospace;
+}

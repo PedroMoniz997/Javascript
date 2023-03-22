@@ -1,0 +1,33 @@
+* {
+    padding:0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: large;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.value input {
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#operation {
+    display: flex;
+}
+
+button {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 15px;
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+}

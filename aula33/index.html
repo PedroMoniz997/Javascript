@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Exercícios de classes</title>
+</head>
+<body>
+    <div id="creat-car" class="creat-car">
+        <div class="form-zone">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="form-zone">
+            <label for="port">Portas:</label>
+            <input type="number" name="port" id="port" value="0" >
+        </div>
+        <div class="form-zone">
+            <label for="blind">Blindagem:</label>
+            <input type="number" name="blind" id="blind" value="0" disabled>
+        </div>
+        <div class="form-zone">
+            <label for="munition">Munição:</label>
+            <input type="number" name="munition" id="munition" value="0" disabled>
+        </div>
+        <div class="form-zone">
+            
+        </div>
+        <div class="form-zone">
+            <span>Tipo:</span>
+            <div class="radio">
+                <input type="radio" name="type" id="typeMilitary">Militar
+            </div>
+            <div class="radio">
+                <input type="radio" name="type" id="typeNormal" checked>Normal
+            </div>
+        </div>
+        <div class="form-zone">
+            <button id="btnAdd">Adicionar</button>
+        </div>
+        <div id="cars" class="cars">
+            <!-- The cars -->
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
